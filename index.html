@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login • Jala University</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="frame">
+    <section class="card">
+      <div class="card__image">
+        <img src="assets/login-image.png" alt="" />
+      </div>
+
+      <div class="card__form">
+        <div class="logo">
+          <img src="assets/logo.svg" alt="Jala University" width="154" height="48">
+        </div>
+
+        <h1 class="title">Nice to see you again</h1>
+
+        <div class="field-group">
+          <label class="visually-hidden" for="email">Email</label>
+          <input id="email" type="email" placeholder="Email">
+        </div>
+
+        <div class="field-group">
+          <label class="visually-hidden" for="password">Password</label>
+          <div class="input-with-icon">
+            <input id="password" type="password" placeholder="Password">
+            <img class="icon" src="assets/icon-visibility_off.svg" alt="" width="24" height="24">
+          </div>
+        </div>
+
+        <div class="forgot-row">
+          <a href="#" class="link subtle">Forgot password?</a>
+        </div>
+
+        <button class="btn-primary" type="button">Sign in</button>
+
+        <div class="create-account">
+          <span>Don’t have an account?</span>
+          <a class="link" href="#">Create account</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
